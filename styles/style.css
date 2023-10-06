@@ -9,6 +9,7 @@ html {
 }
 
 .page {
+  overflow-y: hidden;
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
@@ -38,7 +39,7 @@ ol {
 }
 
 .content {
-  margin-top: 150px;
+  margin-top: 145px;
   padding: 133px 30px 133px 30px;
   gap: 30px;
   min-width: 1140px;
