@@ -9,7 +9,9 @@ html {
 }
 
 .page {
-  overflow-y: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
@@ -39,7 +41,6 @@ ol {
 }
 
 .content {
-  margin-top: 140px;
   padding: 133px 30px 133px 30px;
   gap: 30px;
   min-width: 1140px;
@@ -189,7 +190,7 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox .checkbox-checked
 }
 
 .title {
-  margin-left: 5px;
+  margin-left: 0px;
   color: #FFF;
   font-family: Oswald;
   font-size: 75px;
