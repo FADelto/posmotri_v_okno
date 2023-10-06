@@ -38,6 +38,7 @@ ol {
 }
 
 .content {
+  margin-top: 100px;
   padding: 133px 30px 133px 30px;
   gap: 30px;
   min-width: 1140px;
