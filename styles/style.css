@@ -127,6 +127,10 @@ ol {
 
 /* Checkboxes */
 
+.search-form__checkbox-list {
+  display: inline-flex;
+}
+
 .search-form__fieldset + .search-form__fieldset {
   padding-bottom: 7px;
   padding-left: 9px;
@@ -178,7 +182,6 @@ ol {
 /* */
 
 .search-form__submit-button {
-  cursor: pointer;
   width: 194px;
   display: flex;
   justify-content: center;
@@ -234,11 +237,12 @@ ol {
 
 /*Card Templates*/
 
-.content__list-item:hover {
+.content__list-item:hover .content__video-card-description-container{
   text-decoration: underline;
   text-underline-offset: 3px;
-  text-decoration-thickness: 1px;
+  text-decoration-thickness: 1.5px;
 }
+
 .content__list-item:first-of-type{
   margin-top: 1px;
 }
@@ -305,6 +309,7 @@ ol {
 }
 
 .button {
+  cursor: pointer;
   background-color: transparent;
   border: 1px solid #ffffff;
   color: white;
