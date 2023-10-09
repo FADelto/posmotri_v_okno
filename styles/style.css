@@ -314,7 +314,11 @@ ol {
   border: 1px solid #ffffff;
   color: white;
   min-height: 34px;
+  font-family: Fira Sans Condensed;
   font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
   margin: 2px;
 }
 
